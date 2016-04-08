@@ -26,5 +26,13 @@ namespace Jarvio
         {
             this.InitializeComponent();
         }
+
+        private void ClickMe_Click(object sender, RoutedEventArgs e)
+        {
+            Flex flex = new Flex();
+            this.HelloMessage.Text = "Data is about to output....";
+            flex.Initialize();
+        }
     }
 }
+
